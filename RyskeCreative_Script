@@ -1,0 +1,6 @@
+const hamburger = document.getElementById('hamburger');
+const navBar = document.getElementById('navigation-bar');
+
+hamburger.addEventListener('click', function(){
+    navBar.style.display = "block";
+});
